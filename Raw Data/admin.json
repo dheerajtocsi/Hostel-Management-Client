@@ -1,0 +1,23 @@
+[
+    
+    {
+        "userId" : "RishabhAdmin",
+        "password" : "123456",
+        "admin" : true
+    },
+    {
+        "userId" : "JaiAdmin",
+        "password" : "123456",
+        "admin" : true
+    },
+    {
+        "userId" : "DherajAdmin",
+        "password" : "123456",
+        "admin" : true
+    },
+    {
+        "userId" : "AbhishekAdmin",
+        "password" : "123456",
+        "admin" : true
+    }
+]

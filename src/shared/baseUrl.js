@@ -1,0 +1,1 @@
+export const baseUrl = 'https://mnnit-hostel-management.herokuapp.com/'

@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+html,body
+{
+    font-family: 'Questrial', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+/* Header */
+body{
+    background-color: white;
+}
+.header{
+    padding-top: 10px;
+    padding-right: 0;
+    padding-left: 30px;
+}
+.hms{
+    height: 100%;
+    width: 80%;
+}
+.pec{
+    padding-top: 2%;
+    padding-right: 2%;
+    height: 11.5%;
+    width: 11.5%;
+}
+
+@media (max-width: 768px){
+    .hms{
+        height: 40%;
+        width: 40%;
+    }
+    .pec{
+        height: 30%;
+        width: 30%;
+    }
+}
+
+/* Nav Component */
+
+.close {
+    position: relative;
+    left: 60%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-family: "Montserrat";
+}
+
+.nav-link:hover{
+    color: white
+}
+
+
+.close{
+    position: relative;
+    left: 370px;
+}
+
+/* Home Component */
+
+.topSection, .describe{
+    background-image: linear-gradient( 111.5deg, rgb(234, 126, 10) 0.4%, rgb(0, 71, 236) 100.2% );
+    padding-bottom: 30px;
+}
+.content{
+    text-align: center;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.feature{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.feature-heading{
+    color: rgba(20,100,196,1);
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.feature-line{
+    border-color: rgba(20,100,196,1);
+}
+
+.feature-sub{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.feature-content{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.hostel{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border-color: white;
+    width:7%;
+    text-align:center;
+}
+
+.reg{
+    background-color: rgb(0, 71, 236);
+    color: white;
+    text-align: center;
+}
+/* Footer */
+
+#footer{
+    background-image: linear-gradient( 111.5deg, rgb(234, 126, 10) 0.4%, rgb(0, 71, 236) 100.2%  );
+    padding: 3% 0%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.copyright{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+}
+
+.contact{
+    padding-left: 100px 10px 10px 10px;
+    background-color: white;
+}
+.contactF{
+    background-image: linear-gradient(  111.5deg, rgb(234, 126, 10) 0.4%, rgb(0, 71, 236) 100.2%  );
+}
+.admin {
+    padding: 20px;
+}
+.social-icon{
+    margin: 20px 20px;
+    color: white;
+    
+}
+.social-icon:hover{
+    color:#094372
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+
+i.info {
+    float: left;
+    background-color: rgb(67, 189, 128);
+    border-radius: 75%;
+    border: 2x solid #094372;
+    padding: 10px 10px;
+    color: white;
+  }
+
+.text{
+    padding-left: 60px;
+    font-family:'Ubuntu', sans-serif;
+}  
+
+
+.inline{
+    display: inline-block;
+
+}
+.myForm{
+    font-family: 'Montserrat', sans-serif;
+}
+strong{
+    font-size: 1.5rem;
+}
+
+.pad{
+    padding-left: 50%;
+}
+.me{
+    box-shadow: none;
+    color:black;
+}
+.card{
+    border-radius: 0;
+    border-color: rgb(101, 131, 212);
+    box-shadow: none;
+    font-size: x-small; 
+}
+.card p {
+    font-size: medium;
+    margin-bottom: 0;
+}
+.card h3 {
+    margin-left: 10%;
+}
+.card-header {
+   
+    background-image: linear-gradient(  111.5deg, rgb(27, 89, 234) 0.4%, rgb(25, 85, 226) 100.2%  );
+    color: white;
+}
+.card-footer {
+    font-size: 0.8rem;
+    background-color: white;
+}
+.dashcards {
+    border: none;
+    background-color: rgb(0, 255, 85);
+}
+
+.leftNav{
+    background-color: rgb(233, 243, 242);
+}
+.leftNav {
+    font-size: small;
+    color: turquoise;
+}
+.mealTable th {
+    text-align: center;
+}
+.edit{
+   
+    float: left;
+    background-color: rgb(67, 189, 128);
+    border-radius: 75%;
+    border: 2x solid #007be0;
+    padding: 10px 10px;
+    color: white;
+    padding-right: 10px;
+}
+.delete{
+    float: left;
+    background-color: rgb(236, 13, 43);
+    border-radius: 75%;
+    border: 2x solid #094372;
+    padding: 10px 10px;
+    color: white;
+}
+.delete:hover {
+    cursor: pointer;
+    color: #eaeff3;
+}
+.edit:hover{
+    cursor: pointer;
+    color: #eaeff3;
+}
+
+.resolve{
+    float: left;
+    background-color: rgb(236, 158, 13);
+    border-radius: 75%;
+    border: 2x solid #094372;
+    padding: 10px 10px;
+    color: white;
+}
+.resolve:hover {
+    cursor: pointer;
+    color: #eaeff3;
+}
+
+.loader{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
+.mainSection {
+    min-height: 500px;
+}
+.class-col {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0cm;
+    
+}
+.meal-col{
+    margin-top: 0.69cm;
+}
